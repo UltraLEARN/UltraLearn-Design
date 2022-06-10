@@ -1,0 +1,29 @@
+:root{
+    --custom-color: white;
+    --padding: 20px;
+    --midium-font-size:1.2em;
+    --big-font-size:2.5em;
+    --border-radius:8px;
+    --margin-top:20px;
+    --misc-color:purple;
+}
+body{
+    color: purple;
+}
+.btn-submit{
+    margin-top: var(--margin-top);
+    border: none;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    font: var(--midium-font-size);
+    transition: 0.3s;
+}
+.btn-submit:hover{
+    background: rgb(8, 69, 119);
+}
+.center{
+    text-align: center;
+}
